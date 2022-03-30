@@ -5,5 +5,11 @@ test("renders learn react link", () => {
   render(<App />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument(); // This will works
-  expect(true).toBe(true);
+});
+
+test("People is excited for the FE Talks", () => {
+  const fetchLikes = () => 5;
+  const likes = fetchLikes();
+
+  expect(likes).toBeGreaterThanOrEqual(7);
 });
