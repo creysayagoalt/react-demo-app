@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          This deploy will pass
+          This deploy will not pass
         </a>
       </header>
     </div>
